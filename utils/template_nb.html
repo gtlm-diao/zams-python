@@ -1,0 +1,150 @@
+<!-- TITRE PRINCIPAL DU NOTEBOOK -->
+<div style="background-color: #2C3E50; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
+    <h1 style="color: white; font-family: 'Segoe UI', Arial, sans-serif; font-size: 2.8em; text-align: center; margin: 0;">
+        Initiation à la Programmation Python 🐍
+    </h1>
+    <p style="color: #ECF0F1; font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.2em; text-align: center; margin-top: 10px; font-style: italic;">
+        Module d'introduction au langage de programmation Python
+    </p>
+</div>
+
+<!-- INTRODUCTION -->
+<div style="background-color: #f8f9fa; padding: 15px; border-left: 5px solid #2C3E50; margin-bottom: 30px;">
+    <p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.1em; text-align: justify;">
+        De nos jours, apprendre à coder avec Python est une compétence <strong>très très recherchée</strong> dans beaucoup de métiers et pas uniquement pour les Développeurs informatiques à temps plein. <em>Tout le monde peut et doit l'apprendre</em> à mon humble avis ! ✨
+    </p>
+    <p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.1em; text-align: justify;">
+        Dans ce notebook introductif nous verrons ensemble quelques généralités sur le langage Python.
+    </p>
+</div>
+
+<!-- TABLE DES MATIÈRES -->
+<div style="background-color: #f1f8ff; padding: 15px; border-radius: 5px; margin-bottom: 30px;">
+    <h2 style="color: #2C3E50; font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.5em; border-bottom: 2px solid #3498DB; padding-bottom: 5px;">
+        Table des matières 📑
+    </h2>
+    <ul style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.1em;">
+        <li><a href="#definition" style="color: #3498DB; text-decoration: none;">1. Définition: C'est quoi Python?</a></li>
+        <li><a href="#pourquoi" style="color: #3498DB; text-decoration: none;">2. Pourquoi Python et pourquoi devriez-vous l'apprendre?</a>
+            <ul>
+                <li><a href="#scientifique" style="color: #3498DB; text-decoration: none;">2.1 Le Calcul Scientifique et Numérique</a></li>
+                <li><a href="#web" style="color: #3498DB; text-decoration: none;">2.2 Le Développement Web</a></li>
+                <li><a href="#ia" style="color: #3498DB; text-decoration: none;">2.3 Le Big Data et l'Intelligence Artificielle</a></li>
+                <li><a href="#jeux" style="color: #3498DB; text-decoration: none;">2.4 Le Développement de Jeux Vidéos</a></li>
+                <li><a href="#autres" style="color: #3498DB; text-decoration: none;">2.5 Autres applications</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<!-- LOGO ZAMS -->
+<figure style="padding: 1em; text-align: center; margin-bottom: 30px;">
+    <img src="../../ressources/images/zams_python3.png" width="600" height="400" alt="Logo zãms python">
+    <figcaption style="font-size: 0.9em; color: #3498db; margin-top: 0.5em; font-family: 'Segoe UI', Arial, sans-serif;">
+        <i>Logo du cours zãms python</i>
+    </figcaption>
+</figure>
+
+<!-- SECTION 1 - DÉFINITION -->
+<div id="definition"></div>
+<h2 style="color: #3498DB; font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.8em; border-bottom: 2px solid #3498DB; padding-bottom: 5px; margin-top: 40px;">
+    1. Définition: C'est quoi Python? 🤔
+</h2>
+
+<figure style="padding: 1em; text-align: center;">
+    <img src="https://fastnetmon.com/wp-content/uploads/2016/08/python-logo.png" width="800" height="250" alt="Logo Python">
+    <figcaption style="font-size: 0.9em; color: #3498db; margin-top: 0.5em; font-family: 'Segoe UI', Arial, sans-serif;">
+        <i>Logo officiel du langage Python - <a href="https://fastnetmon.com/addons/python-logo/" target="_blank">Source: Python.org</a></i>
+    </figcaption>
+</figure>
+
+<p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.1em; text-align: justify; margin: 20px 0;">
+    Créé par <strong>Guido van Rossum</strong> et publié en <strong>1991</strong>, Python est un langage de programmation open-source, orienté objet, de haut niveau et à usage général(c-à-d polyvalent). C'est une définition assez simple mais qui peut, à première vue, sembler lourde et accablante. Examinons chaque caractéristique séparément pour comprendre ce qu'elle signifie clairement:
+</p>
+
+<ul style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.1em; margin: 20px 0;">
+    <li><strong style="color: #3498DB;">Open-source</strong> 🔓 : il est gratuit et accessible à tous pour d'autres améliorations, comme l'ajout de fonctionnalités utiles, la correction de bogues, l'ajout de bibliothèques etc...</li>
+    <li><strong style="color: #3498DB;">Orienté objet</strong> 🧩 : basé non pas sur des fonctions mais sur des objets avec des attributs et des méthodes définis ( Nous verrons par la suite la notion d'orienté objet en profondeur).</li>
+    <li><strong style="color: #3498DB;">Haut niveau</strong> 📝 : c-à-d convivial et facilemment compris par les Humains. En revanche, certains langages comme l'Assembleur sont dits de bas niveau car étant proches de la "langue maternelle" d'un ordinateur (le binaire), ce qui les rend plus difficiles à comprendre pour nous.</li>
+    <li><strong style="color: #3498DB;">Polyvalent</strong> 🔄 : peut être utilisé pour créer n'importe quel type de programme. Il a une variété d'applications allant du Développement Web à l'Intelligence Artificielle.</li>
+</ul>
+
+<!-- SECTION 2 - POURQUOI PYTHON -->
+<div id="pourquoi"></div>
+<h2 style="color: #3498DB; font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.8em; border-bottom: 2px solid #3498DB; padding-bottom: 5px; margin-top: 40px;">
+    2. Pourquoi Python et pourquoi devriez-vous l'apprendre ? 🌟
+</h2>
+
+<figure style="padding: 1em; text-align: center;">
+    <img src="https://f.hellowork.com/blogdumoderateur/2025/01/classement-langages-programmation-janvier-2025-tiobe.jpg" width="800" height="500" alt="Classement des langages de programmation">
+    <figcaption style="font-size: 0.9em; color: #27ae60; margin-top: 0.5em; font-family: 'Segoe UI', Arial, sans-serif;">
+        <i>TIOBE a élu Python langage de programmation de l'année 2024, durant laquelle il a gagné près de 10 points de popularité. <a href="https://www.tiobe.com/tiobe-index/" target="_blank">Source: TIOBE Software</a></i>
+    </figcaption>
+</figure>
+
+<p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.1em; text-align: justify; margin: 20px 0;">
+    Python est l'un des langages de programmation <strong>les plus populaires au monde</strong> utilisé par des grandes organisations comme <strong>Microsoft</strong>, la <strong>NASA</strong>, <strong>Google</strong> ou encore <strong>Meta</strong>. C'est l'un des langages de programmation les plus puissants et paradoxalement, l'un des plus simples à apprendre car sa syntaxe est proche de l'Anglais courant. Grace à ses nombreuses bibliothèques, il est utilisé entre autres pour:
+</p>
+
+<!-- SECTION 2.1 - CALCUL SCIENTIFIQUE -->
+<div id="scientifique"></div>
+<h3 style="color: #16A085; font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.4em; margin-top: 30px;">
+    2.1 Le Calcul Scientifique et Numérique 🧪
+</h3>
+
+<p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.1em; text-align: justify; margin: 15px 0;">
+    L'écosystème Python offre de nombreux outils et bibliothèques qui aident les scientifiques et les chercheurs. Par exemple <em>SciPy</em> et <em>Pandas</em> sont des bibliothèques pour les mathématiques, les sciences, l'ingénierie, l'analyse et la modélisation des données.
+</p>
+
+<figure style="padding: 1em; text-align: center;">
+    <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*h-yuUdS04PpgH3oP.jpg" width="800" height="500" alt="Python pour le calcul scientifique">
+    <figcaption style="font-size: 0.9em; color: #3498db; margin-top: 0.5em; font-family: 'Segoe UI', Arial, sans-serif;">
+        <i>Bibliothèques Python utilisées dans le calcul scientifique et l'analyse de données - <a href="https://medium.com/towards-data-science/data-science-with-python-intro-to-data-visualization-and-matplotlib-5f799b7c6d82" target="_blank">Source: Medium/Towards Data Science</a></i>
+    </figcaption>
+</figure>
+
+<!-- SECTION 2.2 - DÉVELOPPEMENT WEB -->
+<div id="web"></div>
+<h3 style="color: #16A085; font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.4em; margin-top: 30px;">
+    2.2 Le Développement Web 🌐
+</h3>
+
+<p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.1em; text-align: justify; margin: 15px 0;">
+    Certes HTML et JavaScript sont les principaux langages utilisés pour construire le front-end d'une application web, mais des frameworks basés sur Python tels que <em>Django</em>, <em>Pyramid</em>, <em>Web2Py</em> et <em>Flask</em> sont utilisés pour gérer le back-end et les fonctionnalités côté serveur des sites. Des plateformes géantes comme <strong>Google</strong> et <strong>YouTube</strong> dépendent largement de Python pour leur infrastructure.
+</p>
+
+<figure style="padding: 1em; text-align: center;">
+    <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*74y4AW2sirTyKYq9.jpg" width="800" height="500" alt="Python pour le développement web">
+    <figcaption style="font-size: 0.9em; color: #27ae60; margin-top: 0.5em; font-family: 'Segoe UI', Arial, sans-serif;">
+        <i>Frameworks Python populaires pour le développement web (Django, Flask, FastAPI) - <a href="https://www.djangoproject.com/" target="_blank">Source: Django Project</a></i>
+    </figcaption>
+</figure>
+
+<!-- Sections similaires pour les autres parties... -->
+
+<!-- AUTRES APPLICATIONS -->
+<div id="autres"></div>
+<h3 style="color: #16A085; font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.4em; margin-top: 30px;">
+    2.5 Autres applications
+</h3>
+
+<p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.1em; text-align: justify; margin: 15px 0;">
+    Comme je l'ai sus-mentionné c'est un langage <strong>polyvalent</strong> et biensur il y a d'autres utilités et applications comme:
+</p>
+
+<ul style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.1em; margin: 15px 0; columns: 2;">
+    <li>La robotique 🤖</li>
+    <li>La blockchain 🔗</li>
+    <li>La cybersécurité 🔒</li>
+    <li>L'automatisation des taches ⚙️</li>
+    <li>Les tests 🧪</li>
+    <li>L'écriture de scripts système 💻</li>
+    <li>La programmation de systèmes d'exploitation(OS) 🖥️</li>
+    <li>Les interfaces graphiques(GUI) 🖌️</li>
+</ul>
+
+<div style="background-color: #e8f4fd; padding: 15px; border-left: 5px solid #3498DB; margin: 20px 0;">
+    <p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.1em; margin: 0; font-style: italic;">
+        <strong>💡 À retenir:</strong> Python est un langage versatile qui peut être utilisé dans presque tous les domaines de l'informatique et des sciences modernes!
+    </p>
+</div>

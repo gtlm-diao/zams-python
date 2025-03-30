@@ -1,11 +1,11 @@
 <div align="center">
   <h1>🐍 zãms python</h1>
-  <p>Apprendre Python à la Burkinabè</p>
+  <p>Apprendre Python à la Burkinabè 🔥😉</p>
   <p align="center">
     🕸 <a href="https://www.linkedin.com/in/anyantudre">LinkedIn</a> • 
     📙 <a href="https://www.kaggle.com/waalbannyantudre">Kaggle</a> • 
     💻 <a href="https://anyantudre.medium.com/">Medium Blog</a> • 
-    🤗 <a href="https://huggingface.co/anyantudre">Hugging Face</a> • 
+    🤗 <a href="https://huggingface.co/anyantudre">Hugging Face</a> 
   </p>
 </div>
 <br/>
@@ -19,12 +19,16 @@
   <a href="https://colab.research.google.com/github/anyantudre/zams-python/blob/main/"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 </div>
 
+  <figure style="padding: 1em; text-align: center;">
+    <img src="ressources/images/zams_python3.png" width="600" height="400" alt="Logo Python">
+  </figure>
+
 
 ## 📚 À propos du cours
 
 **"zãms python"** est un cours open source de programmation en Python conçu pour les apprenants francophones, particulièrement ceux d'Afrique francophone (PS: "zãms" signifie "apprendre" en langue [Mooré](https://fr.wikipedia.org/wiki/Moor%C3%A9)).
 
-La première cohorte à laquelle s'adresse ce cours est composée d'étudiants burkinabè au Maroc, principalement des membres de l'AEBM Marrakech (mais bon... Python c'est pour tout le monde hein😮‍💨)
+La première cohorte à laquelle s'adresse ce cours est composée d'étudiants burkinabè au Maroc, principalement des membres de l'**AEBM Marrakech** (mais bon... Python c'est pour tout le monde hein😮‍💨)
 
 
 ### 🎯 Objectifs & Structure
