@@ -22,7 +22,10 @@
 
 ## 📚 À propos du cours
 
-**"zãms python"** est un cours open source de programmation en Python conçu pour les apprenants francophones, particulièrement ceux d'Afrique francophone(PS: "zãms" signifie "apprendre" en langue [Mooré](https://fr.wikipedia.org/wiki/Moor%C3%A9)).
+**"zãms python"** est un cours open source de programmation en Python conçu pour les apprenants francophones, particulièrement ceux d'Afrique francophone (PS: "zãms" signifie "apprendre" en langue [Mooré](https://fr.wikipedia.org/wiki/Moor%C3%A9)).
+
+La première cohorte à laquelle s'adresse ce cours est composée d'étudiants burkinabè au Maroc, principalement des membres de l'AEBM Marrakech (mais bon... Python c'est pour tout le monde hein😮‍💨)
+
 
 ### 🎯 Objectifs & Structure
 
@@ -67,7 +70,7 @@ Chaque module contient :
 
 2. **Suivre le cours**
    - Consultez les modules dans l'ordre dans le dossier `modules/`
-   - Regardez les vidéos complémentaires sur [notre chaîne YouTube](#)
+   - Regardez les vidéos complémentaires sur [YouTube](#)
    - Complétez les exercices
 
 3. **Suivre le cours en ligne (sans installation)**
