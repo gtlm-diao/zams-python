@@ -73,7 +73,7 @@ Chaque module contient :
 
 2. **Suivre le cours**
    - Consultez les modules dans l'ordre dans le dossier `modules/`
-   - Regardez les vidéos complémentaires sur [YouTube](#)
+   - Regardez les vidéos complémentaires sur [YouTube](https://www.youtube.com/@anyantudre)
    - Complétez les exercices
 
 3. **Suivre le cours en ligne (sans installation)**
