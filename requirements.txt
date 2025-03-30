@@ -1,0 +1,26 @@
+# This template is a low-dependency template. 
+# By default there is no requirements added here.
+# Add the requirements you need to this file.
+# or run `make init` to create this file automatically based on the template.
+# You can also run `make switch-to-poetry` to use the poetry package manager.
+
+# Packages essentiels pour le cours
+jupyter==1.0.0
+notebook==6.5.4
+ipykernel==6.22.0
+nbconvert==7.3.1
+
+# Packages de data science
+numpy==1.24.3
+pandas==2.0.0
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Packages pour les exercices et projets
+pytest==7.3.1
+flake8==6.0.0
+black==23.3.0
+
+# Documentation
+mkdocs==1.4.3
+mkdocs-material==9.1.8

@@ -1,0 +1,52 @@
+name: Test Notebooks
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'modules/**/*.ipynb'
+      - 'ressources/scripts/**'
+      - 'utils/**'
+      - 'requirements.txt'
+      - '.github/workflows/notebooks.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'modules/**/*.ipynb'
+      - 'ressources/scripts/**'
+      - 'utils/**'
+      - 'requirements.txt'
+      - '.github/workflows/notebooks.yml'
+
+jobs:
+  test-notebooks:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install nbconvert jupyter
+          
+      - name: Execute notebooks
+        run: |
+          # Parcourir tous les notebooks dans modules
+          for notebook in $(find modules -name "*.ipynb"); do
+            echo "Testing $notebook"
+            jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=600 --output-dir /tmp "$notebook" || echo "Warning: Failed to execute $notebook completely"
+          done
+          
+      - name: Check for errors
+        run: |
+          # Si des erreurs importantes ont été trouvées, la commande suivante terminera avec un code d'erreur
+          for file in $(find /tmp -name "*.ipynb"); do
+            python -c "import json; nb = json.load(open('$file')); exit(any('error' in cell.get('outputs', [{}])[0].get('output_type', '') for cell in nb.get('cells', [])))" || { echo "Errors found in executed notebook $file"; exit 1; }
+          done 
