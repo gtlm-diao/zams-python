@@ -19,10 +19,9 @@
   <a href="https://colab.research.google.com/github/anyantudre/zams-python/blob/main/"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 </div>
 
-<figure style="padding: 1em; text-align: center;">
-    <img src="ressources/images/zams_python3.png" width="600" height="400" alt="Logo Python">
-</figure>
-
+<p align="center">
+<a href="ressources/images/zams_python3.png"><img src="ressources/images/zams_python3.png" width="600" height="400" /></a>
+</p>
 
 ## 📚 À propos du cours
 
