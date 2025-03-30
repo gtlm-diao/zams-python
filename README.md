@@ -19,26 +19,28 @@
   <a href="https://colab.research.google.com/github/anyantudre/zams-python/blob/main/"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 </div>
 
+
 ## 📚 À propos du cours
 
-"zãms python" est un cours open source de programmation en Python conçu pour les apprenants francophones, particulièrement au Burkina Faso. Le nom "zãms" signifie "apprendre" en langue Mooré.
+**"zãms python"** est un cours open source de programmation en Python conçu pour les apprenants francophones, particulièrement ceux d'Afrique francophone(PS: "zãms" signifie "apprendre" en langue [Mooré](https://fr.wikipedia.org/wiki/Moor%C3%A9)).
 
 ### 🎯 Objectifs & Structure
 
-**Notre mission :**
+Le principal objectif de ce repo est de:
 - Fournir une formation complète en Python accessible à tous
-- Créer une communauté d'apprenants et de contributeurs
-- Proposer des ressources adaptées au contexte local
+- Proposer un lieu centralisé ou les passionnés de Python peuvent facilement retrouver des ressources sur Python.
+- Créer une communauté d'apprenants et de contributeurs 
 - Permettre un apprentissage à son propre rythme
 
 **Organisation des modules :**
 Chaque module contient :
 - Des leçons interactives en format notebook Jupyter
 - Des exercices pratiques avec solutions
-- Des ressources complémentaires adaptées
+- Des ressources complémentaires
 - Des projets concrets pour appliquer vos connaissances
 
-## 📋 Programme du cours
+
+## 📋 Programme du cours (provisoire)
 
 | N° | Module | Détails | Lien GitHub | Lien YouTube | Statut |
 |----|--------|---------|------------|-------------|--------|
@@ -53,8 +55,9 @@ Chaque module contient :
 ## ⏱️ Timeline du cours
 
 <div align="center">
-  <img src="https://mermaid.ink/img/pako:eNptkk1vgzAMhv9KlJPbSR0lQAMdQdttWnuYptUXAkbxBidKTDtUlf99TtmgjKOV5-3HeT0nSl3HFKMo0U1KW4V7baDcgjw0UnJp0GJiO9MWVl71HUK6xvQFl1gEm8EJxjsz3Y-YgDRmG5LCX0uVYgrNrm0-3xwb1Z-18eKZMIqyT-fEKwcaGbQGLOvdTmMZ7LHJw3zN4bJUUcLJC4Eecuu8uTsG3DP4aaXPGQY9zWGXoN-m78-YXsG8p9Opl8LL5YjIi0mWz5R-mBnZOQfL7fLSKXjmPr2cF9_T4Uy_Y0X3WE4_GU2LNy7iNFHVSM7nGi2VL9p6-U1j1ixOC9e0XNXPp_PJeP97P6vGhCYKbUeWBjtX_kNHMPrgTmDk_zX2tBvKuLB45nR4YA2xWjmojbY0n-rG1iYtJPfnuFfFHzxaLkc?type=png" />
+  <img src="" />
 </div>
+
 
 ## 🚀 Comment démarrer
 
@@ -76,17 +79,20 @@ Chaque module contient :
    - Proposez des améliorations via des Pull Requests
    - Partagez vos projets dans la section communauté
 
+
 ## 📚 Ressources complémentaires
 
 - 📖 [Glossaire](communaute/glossaire.md) - Termes techniques expliqués en français et mooré
 - ❓ [FAQ](communaute/faq.md) - Questions fréquemment posées
 - 📚 [Bibliographie](ressources/bibliographie.md) - Livres et sites recommandés
 
+
 ## 👥 Communauté
 
-Rejoignez notre communauté pour échanger, poser des questions et partager vos projets:
+Rejoignez la communauté pour échanger, poser des questions et partager vos projets:
 - 💬 [GitHub Discussions](#)
 - 📱 [Groupe WhatsApp](#)
+
 
 ## 📄 Licence
 

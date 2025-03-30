@@ -1,14 +1,12 @@
-# Packages essentiels pour le cours
 jupyter==1.0.0
 notebook==6.5.4
 ipykernel==6.22.0
 nbconvert==7.3.1
 
-# Packages pour les exercices et projets
 pytest==7.3.1
 flake8==6.0.0
 black==23.3.0
 
-# Documentation
+# documentation
 mkdocs==1.4.3
 mkdocs-material==9.1.8
