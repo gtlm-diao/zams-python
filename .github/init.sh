@@ -32,7 +32,10 @@ function download_template {
 }
 
 echo "Using template:${template}"
-template_url="https://github.com/rochacbruno/${template}-project-template"
+# Crédit au template original
+original_template_url="https://github.com/rochacbruno/${template}-project-template"
+# URL actuel
+template_url="https://github.com/anyantudre/${template}-project-template"
 template_dir=".github/templates/${template}"
 if [ -d "${template_dir}" ]; then
     # Template directory already exists
@@ -56,10 +59,11 @@ if [ -d "${template_dir}" ]; then
 else
     # Template directory does not exist, download it
     echo "Downloading ${template_url}"
+    echo "Based on original template by: ${original_template_url}"
     download_template
 fi
 
-echo "Applying ${template} template to this project"}
+echo "Applying ${template} template to this project"
 ./.github/templates/${template}/apply.sh -a "${repo_owner}" -n "${repo_name}" -u "${repo_urlname}" -d "Awesome ${repo_name} created by ${repo_owner}"
 
 # echo "Removing temporary template files"

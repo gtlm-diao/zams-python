@@ -166,7 +166,6 @@ session:
 		$(if $(SESSION),--session $(SESSION),) \
 		$(if $(DESC),--desc "$(DESC)",)
 
-# This project has been generated from rochacbruno/python-project-template
-# __author__ = 'rochacbruno'
-# __repo__ = https://github.com/rochacbruno/python-project-template
-# __sponsor__ = https://github.com/sponsors/rochacbruno/
+# Ce projet est basé sur le template créé par rochacbruno/python-project-template
+# Modifié par: Alban NYANTUDRE
+# Dépôt original: https://github.com/rochacbruno/python-project-template
