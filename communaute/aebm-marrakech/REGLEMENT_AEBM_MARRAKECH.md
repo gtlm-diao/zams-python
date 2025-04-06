@@ -9,7 +9,7 @@
 
 ## 🌟 Introduction
 
-Bienvenue dans la formation **zãms python** spécialement conçue pour les membres de l'Association des Étudiants Burkinabè de Marrakech (AEBM Marrakech). Cette formation vous permettra d'acquérir des compétences solides en programmation Python tout en participant à une communauté d'apprentissage dynamique et bienveillante.
+Ce reglement doit etre lu et approuvé par lesparticipants de la 1ère cohorte la formation **zãms python** c-à-d ceux qui se sont instcrits avec l'Association des Étudiants Burkinabè de Marrakech (AEBM Marrakech). Comme déjà mentionné et expliqué, cette formation vous permettra d'acquérir de solides bases en programmation Python, couronné par des projets pratique tout en participant à une communauté d'apprentissage dynamique et bienveillante.
 
 Ce document définit les règles et les attentes pour assurer une expérience d'apprentissage optimale pour tous les participants.
 
@@ -18,7 +18,7 @@ Ce document définit les règles et les attentes pour assurer une expérience d'
 ### Calendrier et horaires
 - **Fréquence** : Sessions hebdomadaires
 - **Jour** : Chaque dimanche
-- **Horaire** : En soirée (l'heure exacte sera communiquée via le groupe WhatsApp)
+- **Horaire** : à 22h (l'heure exacte sera communiquée via le groupe WhatsApp)
 - **Durée** : 2 heures environ (1h30 de cours + 30min de questions/discussions)
 - **Lieu** : [À préciser] et/ou en ligne via Zoom/Google Meet
 
@@ -33,7 +33,6 @@ Ce document définit les règles et les attentes pour assurer une expérience d'
 ### Assiduité et présence
 - **Présence obligatoire** à chaque session (sauf cas de force majeure)
 - En cas d'absence prévisible, prévenir au moins 24h à l'avance
-- Un taux de présence minimal de **80%** est requis pour valider la formation
 - Trois absences consécutives non justifiées entraîneront une discussion sur votre maintien dans le programme
 
 ### Participation active
@@ -89,10 +88,10 @@ Ce document définit les règles et les attentes pour assurer une expérience d'
 
 ### Processus de soumission des travaux
 1. **Fork** du dépôt principal
-2. Créer une branche pour votre travail (`git checkout -b devoir-semaine2`)
+2. Créer une branche pour votre travail (`git checkout -b nom-devoir-semaine2`)
 3. Ajouter/modifier les fichiers concernés
 4. Commit avec un message descriptif (`git commit -m "Ajout du résumé pour la session 2"`)
-5. Push vers votre fork (`git push origin devoir-semaine2`)
+5. Push vers votre fork (`git push origin nom-devoir-semaine2`)
 6. Créer une Pull Request depuis GitHub
 
 ### Convention de nommage
@@ -105,18 +104,11 @@ Ce document définit les règles et les attentes pour assurer une expérience d'
 - Des commentaires constructifs seront fournis via GitHub
 - Les modifications demandées devront être apportées dans un délai de 3 jours
 
-## 🏆 Attestation et reconnaissance
-
-À la fin de la formation, les participants ayant rempli les conditions suivantes recevront une attestation officielle :
-- Taux de présence d'au moins 80%
-- Soumission d'au moins 80% des devoirs et notes de cours
-- Réalisation et présentation du projet final
 
 ## 📱 Canaux de communication
 
-- **Groupe WhatsApp** : Pour les annonces, questions rapides et coordination
+- **Groupe WhatsApp** : Pour les annonces, questions rapides et coordination. Aussi pour les communications officielles et individuelles
 - **GitHub Discussions** : Pour les questions techniques détaillées
-- **Email** : Pour les communications officielles et individuelles
 
 ## 📣 Suggestions et amélioration continue
 
@@ -150,6 +142,6 @@ _Je comprends que cet engagement est essentiel pour le succès de mon apprentiss
 ---
 
 **Formation organisée par :** [Alban NYANTUDRE](https://github.com/anyantudre)  
-**Contact :** [ajouter email ou autre moyen de contact]
+**Contact :** 
 
 Version 1.0 - Mars 2023 
