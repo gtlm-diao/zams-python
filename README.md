@@ -97,7 +97,7 @@ Chaque module contient :
 
 Rejoignez la communauté pour échanger, poser des questions et partager vos projets:
 - 💬 [GitHub Discussions](#)
-- 📱 [Groupe WhatsApp](#)
+- 📱 [Groupe WhatsApp](https://chat.whatsapp.com/El2zYGbExTVF9NICzouOGb)
 
 
 ## 📄 Licence
