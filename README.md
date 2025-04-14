@@ -50,7 +50,7 @@ Chaque module contient :
 
 | N° | Module | Détails | Lien GitHub | Lien YouTube | Statut |
 |----|--------|---------|------------|-------------|--------|
-| 0 | 🚀 Introduction à Python | <ul><li>Qu'est-ce que Python?</li><li>Installation</li><li>Premier programme</li></ul> | [GitHub](modules/00-introduction) | [YouTube](#) | En cours 🚧 |
+| 0 | 🚀 Introduction à Python | <ul><li>Qu'est-ce que Python?</li><li>Installation</li><li>Premier programme</li></ul> | [GitHub](modules/00-introduction) | [YouTube](https://youtu.be/u3fcMh7-bl4) | En cours 🚧 |
 | 1 | 🧩 Les bases de Python | <ul><li>Variables et types</li><li>Opérations de base</li><li>Structures conditionnelles</li><li>Boucles</li><li>Collections</li><li>Fonctions</li></ul> | [GitHub](modules/01-bases-python) | [YouTube](#) | À venir 📅 |
 | 2 | 📦 Structures de données | <ul><li>Listes avancées</li><li>Dictionnaires</li><li>Tuples</li><li>Ensembles</li></ul> | [GitHub](#) | [YouTube](#) | À venir 📅 |
 | 3 | 🏗️ Programmation orientée objet | <ul><li>Classes et objets</li><li>Héritage</li><li>Polymorphisme</li><li>Encapsulation</li></ul> | [GitHub](#) | [YouTube](#) | À venir 📅 |
