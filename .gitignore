@@ -5,7 +5,6 @@ videos/
 __pycache__/
 *.py[cod]
 *$py.class
-modules/00-introduction/02-installation-python.ipynb
 
 # C extensions
 *.so
