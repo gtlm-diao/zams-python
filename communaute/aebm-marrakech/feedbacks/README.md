@@ -38,7 +38,7 @@ Les feedbacks sont régulièrement analysés pour :
 
 Si vous préférez soumettre un feedback anonyme, vous pouvez :
 1. Le transmettre directement au formateur par message privé
-2. Utiliser le formulaire anonyme en ligne (lien partagé dans le groupe WhatsApp)
+2. Utiliser le formulaire anonyme en ligne (lien sera partagé dans le groupe WhatsApp)
 
 ---
 
